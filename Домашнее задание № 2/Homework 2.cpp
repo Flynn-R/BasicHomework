@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-int main(void)
+int main()
 {
 	//Задание 1
 	{
