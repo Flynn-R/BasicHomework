@@ -49,6 +49,10 @@ void createFile()
 			file1.close();
 			file2 << buf2;
 			file2.close();
+			delete[] buf1;
+			delete[] buf2;
+			buf1 = nullptr;
+			buf2 = nullptr;
 		}
 		else
 		{
