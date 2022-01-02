@@ -26,6 +26,7 @@ void find()
 				std::cout << "We didn't find it!\n";
 			}
 		}
+		file.close();
 	}
 	else
 	{
