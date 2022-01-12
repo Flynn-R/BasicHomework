@@ -15,10 +15,12 @@ int main()
 
     // Задание 2
     {
-        int a;
+        int a, b;
         cout << "Task 2\nEnter a number: ";
         cin >> a;
-        cout << CHECK(a) << "\n\n"; // CHECK(a) определена в mllib.h
+        cout << "Enter the second number: ";
+        cin >> b;
+        cout << CHECK(a, b) << "\n\n"; // CHECK(a, b) определена в mllib.h
     }
 
     // Задание 3
