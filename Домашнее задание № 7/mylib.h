@@ -6,8 +6,7 @@
 #define ARR_SIZE 10
 
 // Для задания 2
-#define B 5
-#define CHECK(a) ((a >= 0 && a < B) ? "true" : "false")
+#define CHECK(a, b) ((a >= 0 && a < b) ? "true" : "false")
 
 // Для задания 3
 #define SWAP(a, b) int temp = a; a = b; b = temp;
